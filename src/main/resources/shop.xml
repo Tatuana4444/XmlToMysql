@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns:onlineShop xmlns:ns="http://onlineShop.com/onlineShop" xmlns="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://onlineShop.com/onlineShop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ns:products>
+        <ns:product id="101">
+            <ns:name>str1234</ns:name>
+            <ns:description>str1234</ns:description>
+            <ns:price>123</ns:price>
+        </ns:product>
+    </ns:products>
+    <ns:users>
+        <ns:user id="102">
+            <ns:name>str1234</ns:name>
+            <ns:login>str1234</ns:login>
+            <ns:password>str1234</ns:password>
+            <ns:role>client</ns:role>
+        </ns:user>
+        <ns:user id="104">
+            <ns:name>a</ns:name>
+            <ns:login>a</ns:login>
+            <ns:password>a</ns:password>
+            <ns:role>admin</ns:role>
+        </ns:user>
+    </ns:users>
+    <ns:basket>
+        <ns:order id="103">
+            <ns:productId>101</ns:productId>
+            <ns:quantity>123</ns:quantity>
+            <ns:userId>102</ns:userId>
+        </ns:order>
+    </ns:basket>
+</ns:onlineShop>
